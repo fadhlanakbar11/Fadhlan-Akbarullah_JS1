@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ulangi = confirm("coba klik tombol ok dibawah");
+         var counter = 0;
+
+         do { counter ++;
+             ulangi = confirm ("coba sekali lagi klik tombol ok di bawah")
+             counter ++;
+         }while (ulangi)
+
+        document.write("anda sudah mengklik tombol ok sebanyak " + counter +" kali");
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt ("Silahkan masukan angka yang cocok dengan undian anda untuk mengetahui nama partner anda :) (Angka undian dari 1-5 yaa)");
+        var nama = "";
+
+        switch(jawab){
+            case "1":
+                nama = "Vinna Devina";
+                break;
+            case "2":
+                nama = "Satria Wijaya";
+                break;
+            case "3":
+                nama = "Jani Alawi";
+                break;
+            case "4":
+                nama = "Yuyun Yuni Kasih";
+                break;  
+            case "5":
+                nama = "Kiki Putra Gumilang";
+                break;
+            default:
+                document.write("<h1>TETOT!! tidak ada angka 6 dst kawan :(</h1>");
+        }
+
+        if(nama === ""){
+            document.write("<p>Coba ulang kembali inputan anda... angka 1 sampai 5 yaa ;) </p>");
+        } else {
+            document.write("<h2>Yeay!! " + nama + " adalah partner anda mulai dari sekarang :)<h2>");
+        }
+    </script>
+</body>
+</html>
