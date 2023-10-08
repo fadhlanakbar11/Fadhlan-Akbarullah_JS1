@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Javascript</title>
-</head>
-<body>
-    <!-- IF -->
-    <script>
+
+// IF
     var usiaAnda = prompt("usiaAnda", 0);
 
         if (usiaAnda < 20){
             console.log("Anda Masih muda yaa");
         }
-    </script>
 
-    <!-- IF ELSE -->
-    <script>
+// IF ELSE
         var email = prompt("Email");
 
         if (email == "fadhlanakbarullah@gmail.com"){
@@ -24,10 +14,8 @@
         } else{
             console.log("Sayangnya Anda Bukan Mas Fad :(");
         }
-    </script>
 
-    <!-- IF NESTED -->
-    <script>
+// IF NESTED
         var username = prompt("Username : ");
         var password = prompt("Password : ");
 
@@ -40,10 +28,8 @@
         }else{
             console.log ("TETOT!! username tidak terdaftar");
         }
-    </script>
 
-    <!-- SWITCH CASE -->
-    <script>
+// SWITCH CASE
         var jawab = prompt ("Silahkan masukan angka yang cocok dengan undian anda untuk mengetahui nama partner anda :) (Angka undian dari 1-5 yaa)");
         var nama = "";
 
@@ -72,19 +58,15 @@
         } else {
             console.log("Yeay!! " + nama + " adalah partner anda mulai dari sekarang :)");
         }
-    </script>
 
-    <!-- LOOP FOR STATEMENT -->
-    <script>
+// LOOP FOR STATEMENT
         var hewan = ["kucing", "Burung", "Ikan", "Kambing"];
         
         for(i in hewan){
             console.log(i +". "+ hewan [i]);
         }
-    </script>
 
-    <!-- LOOP WHILE -->
-    <script>
+// LOOP WHILE
         var ulangi = confirm("coba klik tombol ok dibawah");
         var counter = 0;
 
@@ -96,10 +78,8 @@
         }
         }
         console.log("anda sudah mengklik tombol ok sebanyak " + counter +" kali");
-    </script>
 
-    <!-- LOOP DO WHILE -->
-    <script>
+// LOOP DO WHILE
         var ulangi = confirm("coba klik tombol ok dibawah");
          var counter = 0;
 
@@ -109,18 +89,13 @@
          }while (ulangi)
 
         console.log("anda sudah mengklik tombol ok sebanyak " + counter +" kali");
-    </script>
 
-    <!-- FUNCTION -->
+// FUNCTION
     <div class="button">
         <button type="submit"onclick="klik()">Klik disini kawan</button>
     </div>
-    <script>
         function klik() {
         var data= prompt("Seberapa banyak data yang ingin anda ulang??");
 
         console.log("Saya Ganteng!".repeat(data))
         }
-    </script>
-</body>
-</html>
