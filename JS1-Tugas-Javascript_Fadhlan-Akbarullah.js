@@ -91,9 +91,7 @@
         console.log("anda sudah mengklik tombol ok sebanyak " + counter +" kali");
 
 // FUNCTION
-    <div class="button">
         <button type="submit"onclick="klik()">Klik disini kawan</button>
-    </div>
         function klik() {
         var data= prompt("Seberapa banyak data yang ingin anda ulang??");
 
